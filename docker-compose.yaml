@@ -1,9 +1,11 @@
 services:
   spark:
-    build: ./spark
-    context: spark.Dockerfile
+    build: 
+      context: ./spark
+      dockerfile: spark.Dockerfile
     ports:
-      - "8080:8080"
+      - "4040:4040"
       - "7077:7077"
+      - "8888:8888"
     volumes:
       - ./spark:/spark

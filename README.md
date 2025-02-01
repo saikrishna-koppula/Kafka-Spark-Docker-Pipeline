@@ -35,3 +35,11 @@ The streaming pipeline architecture consists of several interconnected component
 
 7. **Data Catalogue**
    - **Apache Atlas:** Catalogs data assets, tracks data lineage, and enforces data governance policies.
+  
+
+**Current Action Items:**
+- The basic idea of the process is to
+    - have Python pull data from API and then have it produce to Kafka,
+    - have spark consume data from Kafka, process data
+    - then try to store data in influx DB 
+    - then have the Grafana dashboard display this in terms of charts.

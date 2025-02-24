@@ -1,3 +1,5 @@
+## Note: This is my current project. So the latest implementation may not be pushed to the Docker yet. Please reach out to me if you'd like to discuss the current status of the project. 
+
 # Stremaing Pipeline
 
 ## Table of Content
